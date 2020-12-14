@@ -1,0 +1,36 @@
+{
+    "chosen_version": "2020-01-01",
+    "total_api_version_list": ["2020-01-01"],
+    "client": {
+        "name": "TestServiceClient",
+        "filename": "_test_service_client",
+        "description": "Test Service Client for SDK Automation integration test.",
+        "base_url": "\u0027https://management.azure.com\u0027",
+        "custom_base_url": null,
+        "azure_arm": false,
+        "has_lro_operations": false
+    },
+    "global_parameters": {
+        "sync_method": {
+        },
+        "async_method": {
+        },
+        "constant": {
+        },
+        "call": ""
+    },
+    "config": {
+        "credential": false,
+        "credential_scopes": null,
+        "credential_default_policy_type": "BearerTokenCredentialPolicy",
+        "credential_default_policy_type_has_async_version": true,
+        "credential_key_header_name": null
+    },
+    "operation_groups": {
+        "test": "TestOperations"
+    },
+    "operation_mixins": {
+    },
+    "sync_imports": "None",
+    "async_imports": "None"
+}
